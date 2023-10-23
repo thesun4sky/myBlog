@@ -1,10 +1,10 @@
 package com.sparta.myblog.dto;
 
+import java.time.LocalDateTime;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.sparta.myblog.entity.Post;
 import lombok.Getter;
-
-import java.time.LocalDateTime;
 
 @Getter
 @JsonInclude(JsonInclude.Include.NON_NULL)
